@@ -1,0 +1,6 @@
+SELECT COUNT(*)
+FROM payment
+WHERE amount BETWEEN 1.99 AND 3.99 
+AND	
+payment_date BETWEEN '2020-01-26 0:00' AND '2020-01-27 23:59'
+ 
